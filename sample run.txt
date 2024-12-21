@@ -1,0 +1,49 @@
+$ dart main.dart
+Enter transaction type (u for add user / b for add book / l for lend book / r for return book / i for info / q for quit)
+u
+Enter user ID:
+1
+Enter user name:
+John Doe
+User added successfully
+Enter transaction type (u for add user / b for add book / l for lend book / r for return book / i for info / q for quit)
+b
+Enter book ID:
+101 
+Enter book title:
+Programming in Dart
+Book added successfully
+Enter transaction type (u for add user / b for add book / l for lend book / r for return book / i for info / q for quit)
+l
+Enter user ID:
+1
+Enter book ID:
+101
+Book borrowed successfully
+Enter transaction type (u for add user / b for add book / l for lend book / r for return book / i for info / q for quit)
+i
+*** Library Info ***
+Books:
+*** Book Info ***
+Book ID: 101
+Book Title: Programming in Dart
+Book Status: Borrowed
+*****************
+Users:
+*** User Info ***
+User ID: 1
+User Name: John Doe
+Borrowed Books:
+  - Programming in Dart
+*****************
+********************
+Enter transaction type (u for add user / b for add book / l for lend book / r for return book / i for info / q for quit)
+r
+Enter user ID:
+1
+Enter book ID:
+101
+Book returned successfully
+Enter transaction type (u for add user / b for add book / l for lend book / r for return book / i for info / q for quit)
+q
+Exiting the system.
